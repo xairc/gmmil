@@ -23,5 +23,6 @@ Provided files:
 
 Hyperparameters:
 
-You can set hyperparameters by passing arguments when you run this python script.
-For example, in order to run GMMIL, run `scripts/imitate_mj.py` python script as `python scripts/imitate_mj.py --mode gmmil --reward_type mmd --data EXPERT_TRAJ_PATH --env_name ENV_NAME`. Check the example shell file `train.sh`.
+In order to set hyperparameters, pass arguments to python script `scripts/imitate_mj.py`. 
+For example, run `python scripts/imitate_mj.py --mode gmmil --reward_type mmd --data EXPERT_TRAJ_PATH --env_name ENV_NAME`. 
+For more detail information, check the example shell file `train.sh`.
